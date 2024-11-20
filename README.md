@@ -101,30 +101,7 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
 
 ---
 
-## Example `main.py`
 
-Here’s an example `main.py` file:
-```python
-from fastapi import FastAPI
 
-app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"message": "Hello, World! Welcome to my FastAPI app on Render."}
-```
-
----
-
-## Summary
-
-1. Prepare your FastAPI app.
-2. Push the project to GitHub.
-3. Deploy on Render and configure settings.
-4. Debug and update if necessary.
-
-**Live URL**: Once deployed, your app will be live at `[https://your-app-name.onrender.com](https://doctor-recommendation-system.onrender.com/docs)`.
-
-🎉 Happy coding!
-```
 
