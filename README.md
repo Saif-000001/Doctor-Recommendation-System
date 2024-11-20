@@ -73,6 +73,8 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port 10000`
    - **Branch**: `main` (or your default branch)
+5. **If you want to free**:
+   -**click** ![Screenshot from 2024-11-20 23-28-18](https://github.com/user-attachments/assets/d991454e-8102-4ffc-9d9c-d55467c5ae05)
 
 5. **Add Environment Variables**:
    Add variables like:
@@ -98,7 +100,10 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
   3. Render will auto-redeploy.
 
 - When successful, you’ll see a **green checkmark** in Render.
-
+   - ![Screenshot from 2024-11-21 00-36-42](https://github.com/user-attachments/assets/d37f7d1a-9e5b-4de6-b36b-e2cc2f85ef9a)
+   - 
+- then click: https://doctor-recommendation-system.onrender.com
+   ![Screenshot from 2024-11-21 00-40-41](https://github.com/user-attachments/assets/66f3ffce-fb92-41e7-8c98-420dfdeca4bd)
 ---
 
 
