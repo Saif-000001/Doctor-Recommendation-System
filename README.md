@@ -16,11 +16,11 @@ Supports environment variables, HTTPS, and auto-redeploys when you update your c
 Beginner-friendly, cost-effective, and lets you focus on development while Render handles the infrastructure.
 ---
 
-### Deploying a FastAPI Application on Render
+## Deploying a FastAPI Application on Render
 
 Here’s how you can deploy your FastAPI application on Render step-by-step:
 
-## Step 1: Prepare Your Project Locally
+### Step 1: Prepare Your Project Locally
 
 1. **Set up a Virtual Environment**:
    ```bash
@@ -54,7 +54,7 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
 
 ---
 
-## Step 2: Push to GitHub
+### Step 2: Push to GitHub
 
 1. **Initialize Git**:
    ```bash
@@ -74,7 +74,7 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
 
 ---
 
-## Step 3: Deploy on Render
+### Step 3: Deploy on Render
 
 1. **Log in to Render**:
    Visit [Render](https://render.com) and log in.
@@ -108,7 +108,7 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
 
 ---
 
-## Step 4: Debugging and Updating
+### Step 4: Debugging and Updating
 
 - If you encounter issues:
   1. Fix the problem in your code.
