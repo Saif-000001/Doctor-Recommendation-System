@@ -69,7 +69,7 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
    - Select your FastAPI repository.
 
 4. **Configure Deployment**:
-   - **Environment**: Python
+   - **Environment**: Python3
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port 10000`
    - **Branch**: `main` (or your default branch)
