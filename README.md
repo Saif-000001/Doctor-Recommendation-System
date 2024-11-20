@@ -1,4 +1,22 @@
-# Deploying a FastAPI Application on Render
+## Deploying FastAPI on Render  
+
+1. **What is Render?**  
+Render is a cloud platform that simplifies hosting and deployment for applications and services.  
+
+2. **Why Use Render?**  
+It offers easy setup, GitHub integration, automatic scaling, and a free tier for beginners.  
+
+3. **What You Do**:  
+Prepare your FastAPI app, push it to GitHub, and configure deployment settings on Render.  
+
+4. **Features**:  
+Supports environment variables, HTTPS, and auto-redeploys when you update your code.  
+
+5. **Benefits**:  
+Beginner-friendly, cost-effective, and lets you focus on development while Render handles the infrastructure.
+
+
+### Deploying a FastAPI Application on Render
 
 Here’s how you can deploy your FastAPI application on Render step-by-step:
 
