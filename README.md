@@ -1,12 +1,6 @@
-# Doctor-Recommendation-System
-Here’s a `README.md` file content for your FastAPI deployment project:
+# Deploying a FastAPI Application on Render
 
-```markdown
-# Deploying FastAPI Application on Render
-
-This guide explains how to deploy a FastAPI application on Render, from setting up the project locally to deploying it on Render's platform.
-
----
+Here’s how you can deploy your FastAPI application on Render step-by-step:
 
 ## Step 1: Prepare Your Project Locally
 
