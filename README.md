@@ -21,7 +21,7 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
    ```
 
 3. **Add Dependencies**:
-   Create a `requirements.txt` file listing your project dependencies:
+   List your project dependencies in `requirements.txt`:
    ```
    fastapi
    uvicorn
@@ -32,7 +32,7 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
    ```bash
    uvicorn main:app --reload
    ```
-   Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to verify it works.
+   Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to confirm it works.
 
 ---
 
@@ -58,38 +58,41 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
 
 ## Step 3: Deploy on Render
 
-1. **Login to Render**:
-   Go to [Render](https://render.com) and log in.
+1. **Log in to Render**:
+   Visit [Render](https://render.com) and log in.
 
 2. **Create a New Web Service**:
-   - Click `New +` > **Web Service**.
+   - Click **New +** > **Web Service**.
 
 3. **Connect GitHub Repository**:
    - Link your Render account to GitHub.
    - Select your FastAPI repository.
 
 4. **Configure Deployment**:
-   - **Environment**: Python3
+   - **Environment**: Python 3
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port 10000`
    - **Branch**: `main` (or your default branch)
-5. **If you want to free**:
-   -**click** ![Screenshot from 2024-11-20 23-28-18](https://github.com/user-attachments/assets/d991454e-8102-4ffc-9d9c-d55467c5ae05)
 
-5. **Add Environment Variables**:
-   Add variables like:
+5. **Free Tier Deployment**:
+   If you need free deployment, make sure you select the **Free** plan.
+
+   ![Free Tier Option](https://github.com/user-attachments/assets/d991454e-8102-4ffc-9d9c-d55467c5ae05)
+
+6. **Add Environment Variables**:
+   Add necessary variables like:
    - `DATABASE_URL`
    - `API_KEYS`
    - `SECRET_CONFIGURATIONS`
 
-6. **Deploy**:
+7. **Deploy**:
    Click **Deploy Web Service**. Render will build and deploy your app.
 
 ---
 
 ## Step 4: Debugging and Updating
 
-- If deployment issues occur:
+- If you encounter issues:
   1. Fix the problem in your code.
   2. Push the changes to GitHub:
      ```bash
@@ -97,17 +100,17 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
      git commit -m "Fix issue"
      git push origin main
      ```
-  3. Render will auto-redeploy.
+  3. Render will automatically redeploy your app.
 
-- When successful, you’ll see a **green checkmark** in Render.
-    ![Screenshot from 2024-11-21 00-36-42](https://github.com/user-attachments/assets/d37f7d1a-9e5b-4de6-b36b-e2cc2f85ef9a)
-   
-- **then click**: https://doctor-recommendation-system.onrender.com
-  
-   ![Screenshot from 2024-11-21 00-40-41](https://github.com/user-attachments/assets/66f3ffce-fb92-41e7-8c98-420dfdeca4bd)
+- **Success Indicator**:
+   Once successful, you’ll see a **green checkmark** on Render.
+
+   ![Green Checkmark](https://github.com/user-attachments/assets/d37f7d1a-9e5b-4de6-b36b-e2cc2f85ef9a)
+
+- **Access Your App**:
+   Click the deployment URL, e.g., [https://doctor-recommendation-system.onrender.com](https://doctor-recommendation-system.onrender.com).
+
+   ![Deployed App](https://github.com/user-attachments/assets/66f3ffce-fb92-41e7-8c98-420dfdeca4bd)
+
 ---
-
-
-
-
 
