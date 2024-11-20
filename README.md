@@ -14,7 +14,7 @@ Supports environment variables, HTTPS, and auto-redeploys when you update your c
 
 5. **Benefits**:  
 Beginner-friendly, cost-effective, and lets you focus on development while Render handles the infrastructure.
-
+---
 
 ### Deploying a FastAPI Application on Render
 
