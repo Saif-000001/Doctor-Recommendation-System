@@ -40,12 +40,15 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
 
 3. **Add Dependencies**:
    List your project dependencies in `requirements.txt`:
+   
+   ``` pip freeze > requirements.txt ```
+   
    ```
    fastapi
    uvicorn
    ```
 
-4. **Run Locally**:
+5. **Run Locally**:
    Test the app locally:
    ```bash
    uvicorn main:app --reload
