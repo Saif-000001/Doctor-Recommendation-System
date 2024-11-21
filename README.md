@@ -1,4 +1,8 @@
 ## Deploying FastAPI on Render  
+Beginner-Friendly Guide
+
+**What is Deployment?**
+Deployment is the process of making an application live and accessible to users. It moves your app from local development to a server or cloud platform for public use.
 
 1. **What is Render?**  
 Render is a cloud platform that simplifies hosting and deployment for applications and services.  
@@ -39,10 +43,13 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
    ```
 
 3. **Add Dependencies**:
-   List your project dependencies in `requirements.txt`:
    
-   ``` pip freeze > requirements.txt ```
-   
+   - Install FastAPI and dependencies
+   ```
+   pip install fastapi uvicorn
+   pip freeze > requirements.txt
+   ```
+   - List your project dependencies in `requirements.txt`:
    ```
    fastapi
    uvicorn
