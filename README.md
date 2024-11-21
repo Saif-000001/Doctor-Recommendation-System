@@ -2,6 +2,7 @@
 Beginner-Friendly Guide
 
 **What is Deployment?**
+
 Deployment is the process of making an application live and accessible to users. It moves your app from local development to a server or cloud platform for public use.
 
 1. **What is Render?**  
