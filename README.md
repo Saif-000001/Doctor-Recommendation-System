@@ -46,15 +46,15 @@ Here’s how you can deploy your FastAPI application on Render step-by-step:
 3. **Add Dependencies**:
    
    - Install FastAPI and dependencies:
-   ```
-   pip install fastapi uvicorn
-   pip freeze > requirements.txt
-   ```
+     ```
+     pip install fastapi uvicorn
+     pip freeze > requirements.txt
+     ```
    - List your project dependencies in `requirements.txt`:
-   ```
-   fastapi
-   uvicorn
-   ```
+     ```
+      fastapi
+      uvicorn
+     ```
    - Create .gitignore file:
      ```
      .venv/
